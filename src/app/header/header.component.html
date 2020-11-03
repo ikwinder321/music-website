@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-sm" style="background-color:darkslategray;">
+    <div class="container-fluid" style="float: left;">
+
+        <div class="navbar-header" id="musictext">
+
+            <a href="#" class="navbar-brand"> <img src="https://tse4.mm.bing.net/th?id=OIP.pT0PaJfynR-qP-xRYgwRLAAAAA&pid=Api&P=0&w=300&h=300" style="height: 50px; width: 50px; float: left;"><b style="float: left; margin-top: 10px; color: white;"><p style="color: brown; float: left;">MUSIC</p> MAGIC</b></a>
+        </div>
+
+        <div class="collapse navbar-collapse" style="float: left; ">
+
+            <ul class="nav navbar-nav  navbar-left">
+                <li routerLinkActive="active">
+                    <!--<a href="#" (click)="onSelect('recipe')">Recipe</a></li>-->
+                    <a routerLink="/home" class="hov" style="color: white;">
+                      HOME
+                    </a>
+                </li>
+                <li routerLinkActive="active" class="hov ">
+                    <!--<a href="# " (click)="onSelect( 'recipe') ">Recipe</a></li>-->
+                    <a routerLink="/myfav" style="color: white; ">MY MUSIC
+                        
+                    </a>
+                </li>
+
+
+                <li class="dropdown">
+                    <a class="dropbtn">GENRES</a>
+                    <div class="dropdown-content">
+                        <a routerLink="../../romantic">Romantic Songs</a>
+                        <a routerLink="../../sad">Sad Songs</a>
+                        <a routerLink="../../rock">Rock Songs</a>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="search-container ">
+                    <i class="glyphicon glyphicon-search search-icon "></i>
+                    <input type="text " placeholder="Search your favourite music " class="search-input " style="color: white; ">
+
+                </li>
+                <li>
+                    <button style="margin-left: 10px; margin-top: 14px; margin-right: 3px;">
+                        <img src="https://cdn1.iconfinder.com/data/icons/mix-ui/24/Moon_Night_Mode_Dark_Sleep-512.png " class="dark " style="width: 25px; height: 25px; background-color: white; "></button>
+                </li>
+                <li routerLinkActive="active ">
+                    <a routerLink="/login" class="hov " style="color: white; ">LOGIN/SIGN UP
+                        
+                    </a>
+                </li>
+                <li routerLinkActive="active">
+                    <a routerLink="/subscribe" class="hov " style="color: white; ">SUBSCRIBE
+
+                    </a>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+</nav>

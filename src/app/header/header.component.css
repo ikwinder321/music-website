@@ -1,0 +1,113 @@
+.search-container {
+    position: relative;
+    display: block;
+    color: aliceblue;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #212121;
+    border-radius: 25px;
+    margin-top: 3px;
+}
+
+ul.dropdown-menu {
+    background-color: darkslategrey;
+}
+
+.search-icon {
+    color: #616161;
+    position: absolute;
+    top: 17px;
+    left: 24px;
+    font-size: 14px;
+}
+
+ul.nav a:hover {
+    color: black !important;
+}
+
+ul.nav a {
+    margin-top: 5px;
+}
+
+.search-input {
+    font-size: 16px;
+    color: #212121;
+    padding: 0 72px;
+    box-sizing: border-box;
+    height: 48px;
+    width: 100%;
+    font-weight: 400;
+    outline: none;
+    background: transparent;
+    border: 1px solid transparent;
+    transition: border 0.1s ease-out;
+}
+
+.dropbtn {
+    background-color: darkslategrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: darkslategrey;
+    color: white;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: darkslategrey;
+}
+
+.dropbtn:hover {
+    color: black;
+    background-color: white;
+}
+
+.active a {
+    color: black;
+}

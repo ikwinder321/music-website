@@ -1,1 +1,20 @@
+html {
+    background-color: ;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color: ;
+}
+
+.login {
+    background-image: url('http://news.toyotaofardmore.com/wp-content/uploads/sites/58/2017/04/iStock-155145658-e1492812169675.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
 /* You can add global styles to this file, and also import other style files */

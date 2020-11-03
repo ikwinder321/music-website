@@ -1,0 +1,47 @@
+.carousel .item {
+    height: 500px;
+    box-shadow: 0 15px 35px #3d2173a1;
+    transition: all ease 0.4s;
+    border-radius: 7px;
+}
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 34px;
+    border-bottom: 4px solid #e6e6e6;
+    padding-bottom: 15px;
+}
+
+.carousel .item:hover {
+    box-shadow: 0 20px 40px white;
+    ;
+    transform: scale(0.98) translateY(5px);
+}
+
+ul.dropdown-menu {
+    background-color: darkslategrey;
+    height: 50px;
+    width: 30px;
+}
+
+#myCarousel {
+    box-shadow: 0 20px 40px #3d2173a1;
+    transition: all ease 0.4s;
+    border-radius: 20px;
+    width: 1490px;
+    margin-left: -200px;
+}
+
+#mycarousel:hover {
+    box-shadow: none;
+    transform: scale(0.98) translateY(5px);
+}
+
+#mycarousel img {
+    width: auto;
+    height: 500px;
+    max-height: 600px;
+    margin-top: 20px;
+}
+
+#myCarousel img:hover {}
