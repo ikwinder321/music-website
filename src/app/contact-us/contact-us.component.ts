@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import * as $ from 'jquery'
 declare var validateForm2: any;
 @Component({
@@ -6,7 +6,7 @@ declare var validateForm2: any;
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.css']
 })
-export class ContactUsComponent implements OnInit {
+export class ContactUsComponent implements OnInit,AfterViewChecked {
 
   constructor() { }
 
@@ -19,6 +19,9 @@ export class ContactUsComponent implements OnInit {
       }
   })
   }
-  validateForm2();
+  ngAfterViewChecked(){
+  
+  }
+  
 
 }

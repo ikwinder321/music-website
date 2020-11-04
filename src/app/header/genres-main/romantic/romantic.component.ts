@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery'
+declare var APlayer:any;
 @Component({
   selector: 'app-romantic',
   templateUrl: './romantic.component.html',
